@@ -1,22 +1,33 @@
 # ----------- CONFIGURABLE START -----------
-title:            "Scribble"
-description:      "Such theme, very cool."
-url:              http://scribble.muan.co # Site url, without a slash at the end.
-signoff:          "muan" # Your name
+title:            "非典型程序园"
+description:      "非典型程序员的非典型程序园"
+url:              http://fdxing.com # Site url, without a slash at the end.
+signoff:          "FDXing" # Your name
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
 share:            false # Turn on twitter and facebook share buttons
 
 links:
-  - name:         Posts
+  - name:         程序园
     url:          /
     external:     false
-  - name:         About me
-    url:          /about
-    external:     false
+
+  - name:         Github
+    url:          https://github.com/fdxing
+    external:     true
+
+  - name:         StackOverflow
+    url:          https://stackoverflow.com/users/7970251/fdxing
+    external:     true
+
+  - name:         简书
+    url:          http://www.jianshu.com/users/fd09022105ad/timeline
+    external:     true
+
+
 # ------------ CONFIGURABLE END ------------
 
-permalink:        /posts/:title
+permalink:        /blogs/:title
 defaults:
   - values:
       layout: "default"
