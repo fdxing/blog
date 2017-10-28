@@ -27,7 +27,7 @@ links:
 
 # ------------ CONFIGURABLE END ------------
 
-permalink:        /blogs/:title
+permalink:        /posts/:title
 defaults:
   - values:
       layout: "default"
